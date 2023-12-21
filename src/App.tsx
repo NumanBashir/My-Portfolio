@@ -11,7 +11,7 @@ function App() {
       </div>
       <div className="mb-10 nav-bar">
         <h1 className="outline outline-offset-2 outline-4 text-3xl font-bold">
-          Navigationddeded
+          Navigation bar
           <NavButton title={"About me"} />
           <NavButton title={"Education & Degree"} />
           <NavButton title={"Internship"} />
