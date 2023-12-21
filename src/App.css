@@ -1,0 +1,11 @@
+#root {
+  padding: 1rem;
+}
+
+.my-header {
+  text-align: center;
+}
+
+.my-image {
+  border-radius: 50%;
+}
