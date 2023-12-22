@@ -37,7 +37,8 @@ function App() {
         <img src="src/assets/html-5.png" className="w-12 mr-2" />
         <img src="src/assets/css-3.png" className="w-12 mr-2" />
         <img src="src/assets/js.png" className="w-12 mr-2" />
-        <img src="src/assets/atom.png" className="w-12 mr-2" />
+        <img src="src/assets/react_icon.png" className="w-12 mr-2" />
+        <img src="src/assets/nodejs.png" className="w-12 mr-2" />
         <img src="src/assets/c-sharp.png" className="w-12 mr-2" />
         <img src="src/assets/net.png" className="w-12 mr-2" />
         <img src="src/assets/python.png" className="w-12 mr-2" />
