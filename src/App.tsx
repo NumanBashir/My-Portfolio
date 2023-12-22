@@ -12,11 +12,11 @@ function App() {
       <div className="mb-10 nav-bar">
         <h1 className="outline outline-offset-2 outline-4 text-3xl font-bold">
           Navigation bar
-          <NavButton title={"About me"} />
-          <NavButton title={"Education & Degree"} />
-          <NavButton title={"Internship"} />
-          <NavButton title={"Projects"} />
-          <NavButton title={"Contact me"} />
+          <NavButton link={"#about"} title={"About me"} />
+          <NavButton link={"#education"} title={"Education"} />
+          <NavButton link={"#intern"} title={"Internship"} />
+          <NavButton link={"#projects"} title={"Projects"} />
+          <NavButton link={"#contact"} title={"Contact me"} />
         </h1>
       </div>
       <div className="grid grid-cols-2 mb-10 about-me">
@@ -25,7 +25,7 @@ function App() {
           alt="profile picture"
           className="my-image outline outline-4"
         />
-        <div>
+        <div id="about">
           <h1 className="text-4xl mb-5">About me</h1>
           <h1 className="break-words">
             My name is Numan Bashir.
@@ -43,16 +43,16 @@ function App() {
         <img src="src/assets/python.png" className="w-12 mr-2" />
         <img src="src/assets/sql-server.png" className="w-12 mr-2" />
       </div>
-      <div className="outline outline-4 mb-10">
+      <div id="education" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Education and Degree</h1>
       </div>
-      <div className="outline outline-4 mb-10">
+      <div id="intern" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Hejdoktor Internship</h1>
       </div>
-      <div className="outline outline-4 mb-10">
+      <div id="projects" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Projects</h1>
       </div>
-      <div className="outline outline-4 mb-10">
+      <div id="contact" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Contact Me</h1>
       </div>
     </>
