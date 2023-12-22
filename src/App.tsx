@@ -6,12 +6,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="mb-10 my-header">
+      <div className="mb-5 my-header">
         <h1 className="text-3xl font-bold">Numan Bashir - Portfolio</h1>
       </div>
       <div className="mb-10 nav-bar">
-        <h1 className="outline outline-offset-2 outline-4 text-3xl font-bold">
-          Navigation bar
+        <h1 className="flex flex-row justify-center items-center text-2xl font-bold">
           <NavButton link={"#about"} title={"About me"} />
           <NavButton link={"#education"} title={"Education"} />
           <NavButton link={"#intern"} title={"Internship"} />
