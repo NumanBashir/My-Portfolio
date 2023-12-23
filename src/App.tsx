@@ -18,18 +18,23 @@ function App() {
           <NavButton link={"#contact"} title={"Contact me"} />
         </h1>
       </div>
-      <div className="grid grid-cols-2 mb-10 about-me">
-        <img
-          src="src/assets/foto-removebg-preview-new.png"
-          alt="profile picture"
-          className="my-image outline outline-4"
-        />
-        <div id="about">
-          <h1 className="text-4xl mb-5">About me</h1>
-          <h1 className="break-words">
-            My name is Numan Bashir.
-            <br />I am a Fullstack Software Engineer
-          </h1>
+      <hr />
+      <div id="about">
+        <h1 className="p-4 text-3xl font-bold flex flex-row justify-center items-center">
+          About me
+        </h1>
+        <div className="grid grid-cols-2 mb-10 about-me">
+          <img
+            src="src/assets/foto-removebg-preview-new.png"
+            alt="profile picture"
+            className="my-image outline outline-4"
+          />
+          <div id="about">
+            <h1 className="break-words">
+              My name is Numan Bashir.
+              <br />I am a Fullstack Software Engineer
+            </h1>
+          </div>
         </div>
       </div>
       <div className="my-4 flex flex-row justify-center items-center tech-stack">
@@ -44,8 +49,18 @@ function App() {
         <img src="src/assets/python.png" className="w-12 mr-2" />
         <img src="src/assets/sql-server.png" className="w-12 mr-2" />
       </div>
-      <div id="education" className="outline outline-4 mb-10">
-        <h1 className="text-3xl font-bold">Education and Degree</h1>
+      <hr />
+      <div id="education">
+        <h1 className="p-4 text-3xl font-bold flex flex-row justify-center items-center">
+          Education and Degree
+        </h1>
+        <div className="grid grid-cols-2 mb-10">
+          <img src="src/assets/dtu.jpeg" alt="dtu image" className="w-100" />
+          <h1 className="break-words">
+            Some text about my studies and degree
+            <br />I am a Fullstack Software Engineer
+          </h1>
+        </div>
       </div>
       <div id="intern" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Hejdoktor Internship</h1>
