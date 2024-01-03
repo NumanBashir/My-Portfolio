@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="mb-5 my-header">
+      <div className="mb-8 my-header">
         <h1 className="text-3xl font-bold">Numan Bashir - Portfolio</h1>
       </div>
       <div className="mb-10 nav-bar">
@@ -20,7 +20,7 @@ function App() {
       </div>
       <hr />
       <div id="about">
-        <h1 className="p-4 text-3xl font-bold flex flex-row justify-center items-center">
+        <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           About me
         </h1>
         <div className="grid grid-cols-2 mb-10 about-me">
@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="my-4 flex flex-row justify-center items-center tech-stack">
+      <div className="my-8 flex flex-row justify-center items-center tech-stack">
         <img src="src/assets/html-5.png" className="w-12 mr-2" />
         <img src="src/assets/css-3.png" className="w-12 mr-2" />
         <img src="src/assets/js.png" className="w-12 mr-2" />
@@ -52,7 +52,7 @@ function App() {
       </div>
       <hr />
       <div id="education">
-        <h1 className="p-4 text-3xl font-bold flex flex-row justify-center items-center">
+        <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           Education and Degree
         </h1>
         <div className="grid grid-cols-2 mb-10">
@@ -65,7 +65,7 @@ function App() {
       </div>
       <hr />
       <div id="intern">
-        <h1 className="p-4 text-3xl font-bold flex flex-row justify-center items-center">
+        <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           Hejdoktor Internship
         </h1>
         <div className="grid grid-cols-2 mb-10">
