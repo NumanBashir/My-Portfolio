@@ -87,7 +87,7 @@ function App() {
       <div id="projects" className="outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Projects</h1>
       </div>
-      <div id="contact" className="outline outline-4 mb-10">
+      <div id="contact" className="bg-slate-600 outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Contact Me</h1>
       </div>
     </>
