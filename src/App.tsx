@@ -84,8 +84,27 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="projects" className="outline outline-4 mb-10">
-        <h1 className="text-3xl font-bold">Projects</h1>
+      <hr />
+      <div id="projects">
+        <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
+          Projects
+        </h1>
+        <div className="grid grid-cols-2 mb-10">
+          <img
+            src="src/assets/todomern3.png"
+            alt="dtu image"
+            className="w-100"
+          />
+          <div>
+            <h1 className="font-bold text-2xl">
+              Advanced Todo App Using MERN Stack
+            </h1>
+            <p className="break-words">
+              Some text about my studies and degree
+              <br />I am a Fullstack Software Engineer
+            </p>
+          </div>
+        </div>
       </div>
       <div id="contact" className="bg-slate-600 outline outline-4 mb-10">
         <h1 className="text-3xl font-bold">Contact Me</h1>
