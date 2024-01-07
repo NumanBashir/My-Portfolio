@@ -23,18 +23,16 @@ function App() {
         <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           About me
         </h1>
-        <div className="grid grid-cols-2 mb-10 about-me">
+        <div className="grid grid-cols-2 mb-10 items-start">
           <img
             src="src/assets/foto-removebg-preview-new.png"
             alt="profile picture"
-            className="my-image outline outline-4"
+            className="w-3/4 my-image outline outline-4 mx-auto"
           />
-          <div id="about">
-            <h1 className="break-words">
-              My name is Numan Bashir.
-              <br />I am a Fullstack Software Engineer
-            </h1>
-          </div>
+          <h1 className="break-words">
+            My name is Numan Bashir.
+            <br />I am a Fullstack Software Engineer
+          </h1>
         </div>
       </div>
       <div className="my-8 flex flex-row justify-center items-center tech-stack">
@@ -134,3 +132,7 @@ function App() {
 }
 
 export default App;
+
+// TODO: Create component for RightToLeftSection and LeftToRightSection
+// TODO: Create inner section component (2 cols)
+// TODO: Use inner section component inside of outer section component
