@@ -89,13 +89,13 @@ function App() {
         <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           Projects
         </h1>
-        <div className="grid grid-cols-2 mb-10">
+        <div className="grid grid-cols-2 mb-10 items-start">
           <img
             src="src/assets/todomern3.png"
             alt="dtu image"
-            className="w-100"
+            className="w-3/4 mx-auto"
           />
-          <div>
+          <div className="flex flex-col items-start">
             <h1 className="font-bold text-2xl">
               Advanced Todo App Using MERN Stack
             </h1>
