@@ -55,8 +55,12 @@ function App() {
         <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           Education and Degree
         </h1>
-        <div className="grid grid-cols-2 mb-10">
-          <img src="src/assets/dtu.jpeg" alt="dtu image" className="w-100" />
+        <div className="grid grid-cols-2 mb-10 items-start">
+          <img
+            src="src/assets/dtu.jpeg"
+            alt="dtu image"
+            className="w-3/4 mx-auto"
+          />
           <h1 className="break-words">
             Some text about my studies and degree
             <br />I am a Fullstack Software Engineer
