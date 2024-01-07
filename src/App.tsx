@@ -106,8 +106,26 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="contact" className="bg-slate-600 outline outline-4 mb-10">
-        <h1 className="text-3xl font-bold">Contact Me</h1>
+      <hr />
+      <div
+        id="contact"
+        className="my-8 inline-block align-top flex flex-col items-center"
+      >
+        <h1 className="my-2 text-3xl font-bold">Contact Me</h1>
+        <h1 className="text-xl">
+          <strong>Email:</strong> sportybashir@gmail.com
+        </h1>
+        <h1 className="text-xl">
+          <strong>LinkedIn:</strong>{" "}
+          <u>
+            <a
+              href="https://www.linkedin.com/in/numan-bashir-576154165/"
+              className="text-blue-500"
+            >
+              Numan Bashir
+            </a>
+          </u>
+        </h1>
       </div>
     </>
   );
