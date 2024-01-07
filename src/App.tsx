@@ -72,20 +72,16 @@ function App() {
         <h1 className="my-8 text-3xl font-bold flex flex-row justify-center items-center">
           Hejdoktor Internship
         </h1>
-        <div className="grid grid-cols-2 mb-10">
-          <div className="flex justify-center items-start">
-            <h1 className="break-words">
-              Some text about my studies and degree
-              <br />I am a Fullstack Software Engineer
-            </h1>
-          </div>
-          <div className="flex justify-center items-center">
-            <img
-              src="src/assets/hejdoktor.jpg"
-              alt="dtu image"
-              className="w-80"
-            />
-          </div>
+        <div className="grid grid-cols-2 mb-10 items-start">
+          <h1 className="break-words">
+            Some text about my studies and degree
+            <br />I am a Fullstack Software Engineer
+          </h1>
+          <img
+            src="src/assets/hejdoktor.jpg"
+            alt="dtu image"
+            className="w-3/4 mx-auto"
+          />
         </div>
       </div>
       <hr />
