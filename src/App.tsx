@@ -135,3 +135,4 @@ export default App;
 // TODO: Create inner section component (2 cols)
 // TODO: Use inner section component inside of outer section component
 // TODO: Make contact formular
+// TODO: Remove hardcoded text into JSON or .resx
