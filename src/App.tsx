@@ -1,4 +1,3 @@
-import { useState } from "react";
 import NavButton from "./components/NavButton";
 
 import "./App.css";
