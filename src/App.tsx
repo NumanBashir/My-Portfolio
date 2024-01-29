@@ -108,7 +108,7 @@ function App() {
         id="contact"
         className="my-8 inline-block align-top flex flex-col items-center"
       >
-        <h1 className="my-2 text-3xl font-bold">Contact Me</h1>
+        <h1 className="my-2 text-3xl font-bold">Contact Me NETLIFY TEST</h1>
         <h1 className="text-xl">
           <strong>Email:</strong> sportybashir@gmail.com
         </h1>
